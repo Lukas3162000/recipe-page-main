@@ -1,0 +1,37 @@
+:root{
+/*Colors*/
+--white: #FFFFFF;
+
+--stone-100: #f3e5d7;
+--stone-150: #e3ddd7;
+--stone-600: #5f564e;
+--stone-900: #302d2b;
+
+--brown: #854532;
+
+--rose-800: #7b274e;
+--rose-50: #fff4f9;
+
+
+}
+
+html,body{
+    display: flex;
+    justify-content: center;
+    height: 100svh;
+}
+
+main{
+    background-color: aqua;
+    max-width: 769px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    margin: 24px;
+}
+
+.content img{
+    width: 100%;
+}
