@@ -46,7 +46,7 @@ html,body{
 }
 
 main{
-    background-color: aqua;
+    background-color: #f4f4f4;
     max-width: 769px;
     display: flex;
     flex-direction: column;
@@ -70,10 +70,45 @@ main{
     border-radius: 12px;
 }
 
+/* Fonts */
+
 .content h1{
     /* Font */
     font-family: Young Serif;
     font-weight: var(--medium);
+    font-size: var(--Heading-1);
+    color: var(--stone-900);
+    letter-spacing: 0%;
+}
 
+.content h2{
+    /* Font */
+    font-family: Young Serif;
+    font-weight: var(--medium);
+    font-size: var(--Heading-2);
+    color: var(--brown);
+    letter-spacing: 0%;
+}
 
+.content p{
+    font-family: Outfit;
+    font-weight: var(--medium);
+    font-size: var(--Regular);
+    color: var(--stone-600);
+    line-height: 170%;
+}
+
+/* Section */
+
+.content section{
+    background-color: var(--rose-50);
+    border-radius: 12px;
+    padding-top: var(--space-30);
+    padding-bottom: var(--space-30);
+    padding-left: var(--space-34);
+    padding-right: var(--space-34);
+}
+
+.content section h3{
+    color: var(--rose-800);
 }
