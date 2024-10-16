@@ -1,5 +1,5 @@
 :root{
-/*Colors*/
+/* Colors */
 --white: #FFFFFF;
 
 --stone-100: #f3e5d7;
@@ -13,7 +13,30 @@
 --rose-50: #fff4f9;
 
 
+/* Font-Weights */
+--Light: 400;
+--medium: 600;
+--bold: 700;
+
+
+/* Font-Sizes */
+--Heading-1: 42px;
+--Heading-2: 30px;
+--Regular: 16px;
+
+
+/* Spacing */
+--space-14: 14px;
+--space-18: 18px;
+--space-22: 22px;
+--space-26: 26px;
+--space-30: 30px;
+--space-34: 34px;
+--space-38: 38px;
+--sapce-42: 42px;
+--sapce-46: 46px;
 }
+
 
 html,body{
     display: flex;
