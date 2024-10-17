@@ -1,0 +1,15 @@
+Learnings: 
+
+
+1. Erstes größeres Learnings
+
+Wenn man in css die Aufzählungspunkte oder einfach die Zahlen ansprechen möchte, 
+geht das mit Pseudocode wie hier beschrieben:
+
+("li::marker")
+
+.content ol li::marker{
+    color: red;
+}
+
+Mega cool !! :D

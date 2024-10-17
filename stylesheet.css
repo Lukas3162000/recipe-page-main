@@ -26,9 +26,11 @@
 
 
 /* Spacing */
+--space-12: 12px;
 --space-14: 14px;
 --space-18: 18px;
 --space-22: 22px;
+--space-24: 24px;
 --space-26: 26px;
 --space-30: 30px;
 --space-34: 34px;
@@ -42,18 +44,18 @@
 html,body{
     display: flex;
     justify-content: center;
-    
+    background-color: var(--stone-100);
 }
 
 main{
-    background-color: #f4f4f4;
+    background-color: var(--white);
     max-width: 769px;
     display: flex;
     flex-direction: column;
     font-family: Outfit;
     border-radius: 28px;
-
 }
+
 
 .content{
     /* Spacing */
@@ -61,13 +63,12 @@ main{
     margin-bottom: var(--space-34);
     margin-left: var(--sapce-42);
     margin-right: var(--sapce-42);
-
-
 }
 
 .content img{
     width: 100%;
     border-radius: 12px;
+    margin-bottom: var(--space-30);
 }
 
 /* Fonts */
@@ -79,23 +80,32 @@ main{
     font-size: var(--Heading-1);
     color: var(--stone-900);
     letter-spacing: 0%;
+
+    padding-top: var(--space-12);
+    margin-top: 0;
+    margin-bottom: var(--sapce-42);
 }
 
 .content h2{
     /* Font */
     font-family: Young Serif;
-    font-weight: var(--medium);
+    font-weight: var(--light);
     font-size: var(--Heading-2);
     color: var(--brown);
     letter-spacing: 0%;
+
+    margin-bottom: var(--space-30);
+    margin-top: opx;
 }
 
 .content p{
     font-family: Outfit;
-    font-weight: var(--medium);
+    font-weight: var(--Light);
     font-size: var(--Regular);
     color: var(--stone-600);
     line-height: 170%;
+    margin-top: 0;
+    margin-bottom: var(--space-30);
 }
 
 /* Section */
@@ -107,8 +117,58 @@ main{
     padding-bottom: var(--space-30);
     padding-left: var(--space-34);
     padding-right: var(--space-34);
+    margin-bottom: var(--space-30);
 }
 
 .content section h3{
     color: var(--rose-800);
+    margin: 0;
+    padding-bottom: var(--space-24);
+}
+
+.content ul{
+    margin: 0px;
+    line-height: 29px;
+    color: var(--stone-600);
+}
+
+/* Ingredients */
+
+
+
+#IngredientsUL{
+    margin-bottom: var(--space-30);
+}
+
+/* Divider */
+
+.content hr{
+    margin: 0px;
+    margin-bottom: var(--space-30);
+    border: none;
+    border-top: 1px solid var(--stone-150);
+}
+
+/* Instructions */
+
+.content ol{
+    color: var(--stone-600);
+    margin-bottom: var(--space-30);
+    margin-top: opx;
+}
+
+.content ol li::marker{
+    color: var(--brown);
+    font-weight: var(--bold);
+}
+
+.content ol li{
+    line-height: 29px;
+    padding-bottom: 4px;
+}
+
+/* Nutrition/Table */
+
+.content table{
+    
 }
