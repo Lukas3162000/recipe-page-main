@@ -169,6 +169,33 @@ main{
 
 /* Nutrition/Table */
 
-.content table{
-    
+#CaloriesTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid var(--stone-150);
+}
+
+tr:last-child{
+    border-bottom: none;
+
+
+}
+
+.SecondInfo{
+    font-weight: var(--bold);
+    color: var(--brown);
+    padding-bottom: var(--space-22);
+    padding-top: var(--space-22);
+
+}
+
+
+.SecondInfoLast{
+    font-weight: var(--bold);
+    color: var(--brown);
+    padding-bottom: 0px;
+    padding-top: var(--space-22);
 }

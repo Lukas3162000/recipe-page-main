@@ -13,3 +13,13 @@ geht das mit Pseudocode wie hier beschrieben:
 }
 
 Mega cool !! :D
+
+
+
+2. Das last child einer Table kann man mit diesem pseudocode adressieren: 
+
+"tr:last-child"
+
+tr:last-child{
+    border-bottom: none;
+}
