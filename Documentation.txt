@@ -23,3 +23,9 @@ Mega cool !! :D
 tr:last-child{
     border-bottom: none;
 }
+
+
+
+3. Die Border-bottom's der table rows konnte ich in der mediaQuery 
+leider nicht mit der margin rechts klein halten. Daher hab ich sie rot gemacht,
+ jemand ne idee wie das geht?

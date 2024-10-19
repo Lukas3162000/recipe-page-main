@@ -35,8 +35,8 @@
 --space-30: 30px;
 --space-34: 34px;
 --space-38: 38px;
---sapce-42: 42px;
---sapce-46: 46px;
+--space-42: 42px;
+--space-46: 46px;
 }
 
 
@@ -44,6 +44,7 @@
 html,body{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--stone-100);
 }
 
@@ -61,8 +62,8 @@ main{
     /* Spacing */
     margin-top: var(--space-34);
     margin-bottom: var(--space-34);
-    margin-left: var(--sapce-42);
-    margin-right: var(--sapce-42);
+    margin-left: var(--space-42);
+    margin-right: var(--space-42);
 }
 
 .content img{
@@ -83,7 +84,7 @@ main{
 
     padding-top: var(--space-12);
     margin-top: 0;
-    margin-bottom: var(--sapce-42);
+    margin-bottom: var(--space-42);
 }
 
 .content h2{
@@ -95,7 +96,7 @@ main{
     letter-spacing: 0%;
 
     margin-bottom: var(--space-30);
-    margin-top: opx;
+    margin-top: 0px;
 }
 
 .content p{
@@ -104,7 +105,7 @@ main{
     font-size: var(--Regular);
     color: var(--stone-600);
     line-height: 170%;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: var(--space-30);
 }
 
@@ -122,7 +123,7 @@ main{
 
 .content section h3{
     color: var(--rose-800);
-    margin: 0;
+    margin: 0px;
     padding-bottom: var(--space-24);
 }
 
@@ -132,9 +133,8 @@ main{
     color: var(--stone-600);
 }
 
+
 /* Ingredients */
-
-
 
 #IngredientsUL{
     margin-bottom: var(--space-30);
@@ -198,4 +198,34 @@ tr:last-child{
     color: var(--brown);
     padding-bottom: 0px;
     padding-top: var(--space-22);
+}
+
+
+/* Specialstuff for mobile */
+@media (width <= 375px){
+    .content h1{
+        font-size: 36px;
+    }
+    
+    .content img{
+        border-radius: 0px;
+    }
+
+    .content{
+        /* Spacing */
+        margin-top: 0px;
+        margin-bottom: var(--space-42);
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .mobileSpacing{
+        margin-left: var(--space-34) !important;
+        margin-right: var(--space-34) !important;
+    }
+
+    tr{
+        border-bottom: solid red;
+    }
+
 }
